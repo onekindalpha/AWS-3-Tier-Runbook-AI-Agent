@@ -3,9 +3,12 @@ from __future__ import annotations
 from dataclasses import asdict
 from datetime import datetime, timezone
 import json
+from pathlib import Path
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 from .config import (
     QUERY_LOG_PATH,
@@ -201,3 +204,26 @@ def eval_retrieval(request: EvalRequest) -> EvalResponse:
         "mrr": result["mean_reciprocal_rank"],
     })
     return EvalResponse(**result)
+
+# --- Hugging Face Space static frontend serving ---
+FRONTEND_DIST = Path(__file__).resolve().parents[2] / "dist"
+
+if FRONTEND_DIST.exists():
+    assets_dir = FRONTEND_DIST / "assets"
+    if assets_dir.exists():
+        app.mount("/assets", StaticFiles(directory=str(assets_dir)), name="assets")
+
+    @app.get("/", include_in_schema=False)
+    async def serve_frontend_root():
+        return FileResponse(FRONTEND_DIST / "index.html")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def serve_frontend_spa(full_path: str):
+        if full_path.startswith("api/"):
+            raise HTTPException(status_code=404, detail="API route not found")
+
+        target = FRONTEND_DIST / full_path
+        if target.exists() and target.is_file():
+            return FileResponse(target)
+
+        return FileResponse(FRONTEND_DIST / "index.html")

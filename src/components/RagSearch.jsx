@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 
-const API_BASE = import.meta.env.VITE_RAG_API_BASE || 'http://localhost:8000'
+const API_BASE = import.meta.env.VITE_RAG_API_BASE || (import.meta.env.DEV ? 'http://127.0.0.1:8000' : '')
 
 const quickActions = [
   { label: 'VPC / Subnet', query: 'VPC subnet route table public private' },

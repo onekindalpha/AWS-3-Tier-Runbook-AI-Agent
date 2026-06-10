@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const API_BASE = import.meta.env.VITE_RAG_API_BASE || 'http://127.0.0.1:8000'
+const API_BASE = import.meta.env.VITE_RAG_API_BASE || (import.meta.env.DEV ? 'http://127.0.0.1:8000' : '')
 
 const examples = [
   'RDS 접근이 안 될 때 어디부터 확인해야 해?',

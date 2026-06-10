@@ -1,3 +1,16 @@
+---
+title: AWS 3-Tier Runbook AI Agent
+emoji: "R"
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+license: mit
+---
+
+
+
 # AWS 3-Tier Runbook AI Agent
 
 FastAPI와 Groq LLM 기반의 **RAG-powered AI Runbook Agent**입니다.  
