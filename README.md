@@ -2,7 +2,7 @@
 
 **Live Demo:** https://huggingface.co/spaces/onekindalpha/aws-3tier-runbook-ai-agent
 **Demo Video**
-https://github.com/user-attachments/assets/9c3dc658-e6e7-46d1-a8cf-a5848b875131
+[(https://github.com/user-attachments/assets/1e765430-03a4-4b75-83c1-d2dcce97da65)]
 
 --- 
 
