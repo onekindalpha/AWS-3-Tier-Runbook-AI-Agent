@@ -1,6 +1,6 @@
 ---
 title: AWS 3-Tier Runbook AI Agent
-emoji: "R"
+emoji: 🤖
 colorFrom: blue
 colorTo: indigo
 sdk: docker
