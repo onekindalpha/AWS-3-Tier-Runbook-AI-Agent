@@ -3,8 +3,9 @@
 ## Demo
 
 **Live Demo**: [(https://huggingface.co/spaces/onekindalpha/aws-3tier-runbook-ai-agent)]
+[
+](https://github.com/user-attachments/assets/8797e252-1eb6-4ade-b611-26c94fec59a4)
 
-[(https://github.com/user-attachments/assets/8797e252-1eb6-4ade-b611-26c94fec59a4)]
 --- 
 
 FastAPI와 Groq LLM 기반의 **RAG-powered AI Runbook Agent**입니다.  
