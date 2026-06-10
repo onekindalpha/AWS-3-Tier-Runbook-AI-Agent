@@ -1,9 +1,13 @@
 # AWS 3-Tier Runbook AI Agent
 
-**Live Demo:** https://huggingface.co/spaces/onekindalpha/aws-3tier-runbook-ai-agent
-[![Demo video](assets/demo/aws_3tier_demo_thumbnail.png)](https://github.com/user-attachments/assets/9c3dc658-e6e7-46d1-a8cf-a5848b875131)
+## Demo
 
+- **Live Demo**: https://onekindalpha-battery-rul-dashboard-bmaml-svgd.hf.space
+- **Related RAG Copilot**: https://github.com/onekindalpha/battery-technical-document-rag
 
+https://github.com/user-attachments/assets/1e05d64d-b9e3-47ac-abc4-06048ae3b7a7
+
+The demo shows cycle-level RUL inference, degradation monitoring, battery comparison, explainability with pre-EOL anomaly evidence, SHAP-based feature importance, and live reinference.
 --- 
 
 FastAPI와 Groq LLM 기반의 **RAG-powered AI Runbook Agent**입니다.  
