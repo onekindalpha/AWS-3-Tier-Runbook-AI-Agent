@@ -2,12 +2,8 @@
 
 ## Demo
 
-- **Live Demo**: https://onekindalpha-battery-rul-dashboard-bmaml-svgd.hf.space
-- **Related RAG Copilot**: https://github.com/onekindalpha/battery-technical-document-rag
 
-https://github.com/user-attachments/assets/1e05d64d-b9e3-47ac-abc4-06048ae3b7a7
 
-The demo shows cycle-level RUL inference, degradation monitoring, battery comparison, explainability with pre-EOL anomaly evidence, SHAP-based feature importance, and live reinference.
 --- 
 
 FastAPI와 Groq LLM 기반의 **RAG-powered AI Runbook Agent**입니다.  
