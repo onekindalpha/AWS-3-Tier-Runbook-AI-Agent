@@ -1,6 +1,4 @@
 import Diagram from './Diagram.jsx'
-import ChapterImages from './ChapterImages.jsx'
-
 function Block({ title, items }) {
   if (!items?.length) return null
 
@@ -24,8 +22,6 @@ export default function RunbookPage({ page }) {
         <Block title="Manual steps" items={page.configured} />
         <Block title="Validation" items={page.validation} />
       </div>
-
-      <ChapterImages pageId={page.id} />
     </>
   )
 }

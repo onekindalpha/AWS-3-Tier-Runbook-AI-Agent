@@ -10,7 +10,7 @@ export const pages = [
       'AWS 3-tier 구조는 VPC, Subnet, Security Group, ALB, EC2, API, RDS가 연결되어 있으므로 단순 문서 열람보다 절차 탐색과 원인 진단 흐름이 더 중요합니다.'
     ],
     configured: [
-      '문서를 Overview, Runbook, Network, Security, Web/API/DB, Validation, Document Search, Source Images, AI Runbook Agent로 재구성했습니다.',
+      '문서를 Overview, Runbook, Network, Security, Web/API/DB, Validation, Document Search, , AI Runbook Agent로 재구성했습니다.',
       'DOCX 본문은 검색 가능한 chunk로 변환하고, DOCX 이미지는 별도 Source Manual Images 페이지에서 관리합니다.',
       '각 챕터는 매뉴얼형 절차와 검증 기준을 중심으로 정리했습니다.'
     ],

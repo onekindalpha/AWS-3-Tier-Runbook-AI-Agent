@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from 'react'
-import PageImageEvidence from './PageImageEvidence.jsx'
 
 function resolvePublicAsset(src) {
   if (!src) return ''
@@ -77,7 +76,6 @@ export default function VisualEvidence({ page }) {
 
       <div className="source-doc-section">
         <div className="visual-label">Related images from the source document</div>
-        <PageImageEvidence pageId={page.id} />
       </div>
     </section>
   )
