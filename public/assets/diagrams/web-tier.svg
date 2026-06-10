@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10" fill="#93c5fd"/></marker></defs>
+  <rect width="1100" height="420" rx="28" fill="#0f172a"/>
+  <text x="44" y="56" fill="#e5edf7" font-family="Arial" font-size="30" font-weight="700">Web Tier 외부 요청 진입 경로 구성</text>
+  <rect x="80" y="150" width="210" height="88" rx="18" fill="#1d4ed8"/>
+  <text x="130" y="202" fill="white" font-family="Arial" font-size="22" font-weight="700">Client</text>
+  <rect x="405" y="150" width="230" height="88" rx="18" fill="#ea580c"/>
+  <text x="460" y="202" fill="white" font-family="Arial" font-size="22" font-weight="700">Public ALB</text>
+  <rect x="750" y="150" width="240" height="88" rx="18" fill="#2563eb"/>
+  <text x="810" y="202" fill="white" font-family="Arial" font-size="22" font-weight="700">Web / Nginx</text>
+  <path d="M290 194 L400 194 M635 194 L745 194" stroke="#93c5fd" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="84" y="310" fill="#cbd5e1" font-family="Arial" font-size="18">사용자 요청은 Public ALB를 통해 Web Tier로 진입하고 내부 API로만 전달</text>
+</svg>

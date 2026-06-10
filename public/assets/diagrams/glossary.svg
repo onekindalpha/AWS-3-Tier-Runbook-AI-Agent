@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+  <rect width="1100" height="420" rx="28" fill="#0f172a"/>
+  <text x="44" y="56" fill="#e5edf7" font-family="Arial" font-size="30" font-weight="700">AWS 핵심 용어와 역할 정리</text>
+  <g font-family="Arial" font-size="18" font-weight="700" text-anchor="middle" fill="white">
+    <rect x="90" y="125" width="170" height="64" rx="15" fill="#1d4ed8"/><text x="175" y="164">VPC</text>
+    <rect x="320" y="125" width="170" height="64" rx="15" fill="#2563eb"/><text x="405" y="164">Subnet</text>
+    <rect x="550" y="125" width="170" height="64" rx="15" fill="#7c3aed"/><text x="635" y="164">SG / NACL</text>
+    <rect x="780" y="125" width="170" height="64" rx="15" fill="#ea580c"/><text x="865" y="164">ALB</text>
+    <rect x="320" y="240" width="170" height="64" rx="15" fill="#0891b2"/><text x="405" y="279">EC2 / API</text>
+    <rect x="550" y="240" width="170" height="64" rx="15" fill="#16a34a"/><text x="635" y="279">RDS</text>
+  </g>
+</svg>

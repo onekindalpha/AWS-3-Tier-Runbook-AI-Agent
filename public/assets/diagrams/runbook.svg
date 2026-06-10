@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10" fill="#93c5fd"/></marker></defs>
+  <rect width="1100" height="420" rx="28" fill="#0f172a"/>
+  <text x="44" y="56" fill="#e5edf7" font-family="Arial" font-size="30" font-weight="700">Manual Runbook Flow</text>
+  <g font-family="Arial" font-size="18" font-weight="700" text-anchor="middle">
+    <rect x="50" y="160" width="145" height="72" rx="14" fill="#1d4ed8"/><text x="122" y="203" fill="white">Network</text>
+    <rect x="250" y="160" width="145" height="72" rx="14" fill="#7c3aed"/><text x="322" y="203" fill="white">Security</text>
+    <rect x="450" y="160" width="145" height="72" rx="14" fill="#2563eb"/><text x="522" y="203" fill="white">Web</text>
+    <rect x="650" y="160" width="145" height="72" rx="14" fill="#0891b2"/><text x="722" y="203" fill="white">API</text>
+    <rect x="850" y="160" width="145" height="72" rx="14" fill="#16a34a"/><text x="922" y="203" fill="white">RDS</text>
+  </g>
+  <g stroke="#93c5fd" stroke-width="5" marker-end="url(#arrow)"><path d="M195 196 L245 196"/><path d="M395 196 L445 196"/><path d="M595 196 L645 196"/><path d="M795 196 L845 196"/></g>
+</svg>

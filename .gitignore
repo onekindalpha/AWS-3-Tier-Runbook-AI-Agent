@@ -1,0 +1,16 @@
+.env
+*.env
+backend/.venv/
+backend/logs/
+backend/data/
+node_modules/
+dist/
+.DS_Store
+.dashboard_*
+.rag_backend_backup_*
+.readme_commit_backup_*
+.groq_agent_patch_backup_*
+.fix_backend_agent_404_backup_*
+.fix_agent_page_label_backup_*
+.remove_source_images_only_backup_*
+.remove_rag_admin_buttons_backup_*

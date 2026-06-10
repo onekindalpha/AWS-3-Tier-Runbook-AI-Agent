@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10" fill="#93c5fd"/></marker></defs>
+  <rect width="1100" height="420" rx="28" fill="#0f172a"/>
+  <text x="44" y="56" fill="#e5edf7" font-family="Arial" font-size="30" font-weight="700">Layered Security Group Path</text>
+  <g font-family="Arial" font-size="18" font-weight="700" text-anchor="middle">
+    <rect x="70" y="160" width="180" height="82" rx="16" fill="#ea580c"/><text x="160" y="209" fill="white">ALB SG</text>
+    <rect x="330" y="160" width="180" height="82" rx="16" fill="#2563eb"/><text x="420" y="209" fill="white">Web SG</text>
+    <rect x="590" y="160" width="180" height="82" rx="16" fill="#0891b2"/><text x="680" y="209" fill="white">API SG</text>
+    <rect x="850" y="160" width="180" height="82" rx="16" fill="#16a34a"/><text x="940" y="209" fill="white">RDS SG</text>
+  </g>
+  <g stroke="#93c5fd" stroke-width="5" marker-end="url(#arrow)"><path d="M250 201 L325 201"/><path d="M510 201 L585 201"/><path d="M770 201 L845 201"/></g>
+</svg>

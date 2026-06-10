@@ -1,0 +1,16 @@
+services:
+  rag-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: aws-3tier-rag-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ALLOW_LLM=${ALLOW_LLM:-false}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPENAI_MODEL=${OPENAI_MODEL:-gpt-4o-mini}
+    volumes:
+      - ./docs:/app/docs:ro
+      - ./backend/logs:/app/backend/logs
+      - ./backend/data:/app/backend/data

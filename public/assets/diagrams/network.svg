@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+  <rect width="1100" height="420" rx="28" fill="#0f172a"/>
+  <text x="44" y="56" fill="#e5edf7" font-family="Arial" font-size="30" font-weight="700">VPC / Subnet / Route Table</text>
+  <rect x="70" y="110" width="960" height="245" rx="24" fill="#111827" stroke="#3b82f6" stroke-width="3"/>
+  <text x="105" y="152" fill="#bfdbfe" font-family="Arial" font-size="22" font-weight="700">VPC Boundary</text>
+  <rect x="135" y="190" width="285" height="95" rx="18" fill="#1d4ed8"/><text x="200" y="246" fill="white" font-family="Arial" font-size="23" font-weight="700">Public Subnet</text>
+  <rect x="680" y="190" width="285" height="95" rx="18" fill="#0f766e"/><text x="740" y="246" fill="white" font-family="Arial" font-size="23" font-weight="700">Private Subnet</text>
+  <rect x="465" y="197" width="170" height="82" rx="16" fill="#334155"/><text x="497" y="246" fill="#e5edf7" font-family="Arial" font-size="21" font-weight="700">Route Table</text>
+</svg>

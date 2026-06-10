@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10" fill="#93c5fd"/></marker></defs>
+  <rect width="1100" height="420" rx="28" fill="#0f172a"/>
+  <text x="44" y="56" fill="#e5edf7" font-family="Arial" font-size="30" font-weight="700">Client-to-DB 전체 요청 흐름 검증</text>
+  <g font-family="Arial" font-size="18" font-weight="700" text-anchor="middle">
+    <rect x="45" y="160" width="130" height="75" rx="16" fill="#1d4ed8"/><text x="110" y="205" fill="white">Client</text>
+    <rect x="245" y="160" width="140" height="75" rx="16" fill="#ea580c"/><text x="315" y="205" fill="white">ALB</text>
+    <rect x="455" y="160" width="140" height="75" rx="16" fill="#2563eb"/><text x="525" y="205" fill="white">Web</text>
+    <rect x="665" y="160" width="140" height="75" rx="16" fill="#0891b2"/><text x="735" y="205" fill="white">API</text>
+    <rect x="875" y="160" width="140" height="75" rx="16" fill="#16a34a"/><text x="945" y="205" fill="white">RDS</text>
+  </g>
+  <g stroke="#93c5fd" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M175 198 L240 198"/><path d="M385 198 L450 198"/><path d="M595 198 L660 198"/><path d="M805 198 L870 198"/>
+  </g>
+  <text x="50" y="310" fill="#cbd5e1" font-family="Arial" font-size="18">각 단계가 다음 계층으로만 연결되는지 확인</text>
+</svg>

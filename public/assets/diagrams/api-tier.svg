@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10" fill="#93c5fd"/></marker></defs>
+  <rect width="1100" height="420" rx="28" fill="#0f172a"/>
+  <text x="44" y="56" fill="#e5edf7" font-family="Arial" font-size="30" font-weight="700">API Tier 내부 서비스 통신 경로 확인</text>
+  <rect x="105" y="150" width="230" height="88" rx="18" fill="#2563eb"/>
+  <text x="168" y="202" fill="white" font-family="Arial" font-size="22" font-weight="700">Web Tier</text>
+  <rect x="435" y="150" width="240" height="88" rx="18" fill="#0891b2"/>
+  <text x="495" y="202" fill="white" font-family="Arial" font-size="22" font-weight="700">API / Flask</text>
+  <rect x="775" y="150" width="220" height="88" rx="18" fill="#16a34a"/>
+  <text x="835" y="202" fill="white" font-family="Arial" font-size="22" font-weight="700">RDS</text>
+  <path d="M335 194 L430 194 M675 194 L770 194" stroke="#93c5fd" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="110" y="310" fill="#cbd5e1" font-family="Arial" font-size="18">API Tier는 외부 직접 접근 없이 내부 요청 처리와 DB 연결만 담당</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10" fill="#93c5fd"/></marker></defs>
+  <rect width="1100" height="420" rx="28" fill="#0f172a"/>
+  <text x="44" y="56" fill="#e5edf7" font-family="Arial" font-size="30" font-weight="700">Web / API / DB Service Path</text>
+  <g font-family="Arial" font-size="20" font-weight="700" text-anchor="middle">
+    <rect x="95" y="160" width="210" height="82" rx="18" fill="#2563eb"/><text x="200" y="209" fill="white">Web / Nginx</text>
+    <rect x="445" y="160" width="210" height="82" rx="18" fill="#0891b2"/><text x="550" y="209" fill="white">API / Flask</text>
+    <rect x="795" y="160" width="210" height="82" rx="18" fill="#16a34a"/><text x="900" y="209" fill="white">RDS</text>
+  </g>
+  <g stroke="#93c5fd" stroke-width="5" marker-end="url(#arrow)"><path d="M305 201 L440 201"/><path d="M655 201 L790 201"/></g>
+</svg>

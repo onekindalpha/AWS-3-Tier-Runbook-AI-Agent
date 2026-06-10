@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10" fill="#93c5fd"/></marker></defs>
+  <rect width="1100" height="420" rx="28" fill="#0f172a"/>
+  <text x="44" y="56" fill="#e5edf7" font-family="Arial" font-size="30" font-weight="700">Local RAG-style Document Search</text>
+  <g font-family="Arial" font-size="20" font-weight="700" text-anchor="middle">
+    <rect x="85" y="165" width="180" height="82" rx="16" fill="#1d4ed8"/><text x="175" y="214" fill="white">DOCX</text>
+    <rect x="355" y="165" width="180" height="82" rx="16" fill="#7c3aed"/><text x="445" y="214" fill="white">Chunks</text>
+    <rect x="625" y="165" width="180" height="82" rx="16" fill="#0891b2"/><text x="715" y="214" fill="white">Search</text>
+    <rect x="895" y="165" width="180" height="82" rx="16" fill="#16a34a"/><text x="985" y="214" fill="white">Evidence</text>
+  </g>
+  <g stroke="#93c5fd" stroke-width="5" marker-end="url(#arrow)"><path d="M265 206 L350 206"/><path d="M535 206 L620 206"/><path d="M805 206 L890 206"/></g>
+</svg>

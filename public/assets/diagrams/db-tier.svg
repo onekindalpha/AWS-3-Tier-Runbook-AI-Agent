@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10" fill="#93c5fd"/></marker></defs>
+  <rect width="1100" height="420" rx="28" fill="#0f172a"/>
+  <text x="44" y="56" fill="#e5edf7" font-family="Arial" font-size="30" font-weight="700">RDS Private DB 접근 제한 확인</text>
+  <rect x="95" y="115" width="910" height="230" rx="24" fill="#111827" stroke="#16a34a" stroke-width="3"/>
+  <text x="130" y="155" fill="#bbf7d0" font-family="Arial" font-size="22" font-weight="700">Private DB Subnet</text>
+  <rect x="250" y="205" width="230" height="86" rx="18" fill="#0891b2"/>
+  <text x="315" y="257" fill="white" font-family="Arial" font-size="22" font-weight="700">API Tier</text>
+  <rect x="650" y="205" width="230" height="86" rx="18" fill="#16a34a"/>
+  <text x="735" y="257" fill="white" font-family="Arial" font-size="22" font-weight="700">RDS</text>
+  <path d="M480 248 L645 248" stroke="#93c5fd" stroke-width="5" marker-end="url(#arrow)"/>
+</svg>
