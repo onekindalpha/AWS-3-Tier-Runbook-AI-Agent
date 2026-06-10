@@ -1,18 +1,9 @@
----
-title: AWS 3-Tier Runbook AI Agent
-emoji: 🤖
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-app_port: 7860
-pinned: false
-license: mit
----
-
-
-
-
 # AWS 3-Tier Runbook AI Agent
+
+**Live Demo:** https://huggingface.co/spaces/onekindalpha/aws-3tier-runbook-ai-agent
+**Demo Video:** [Watch 27-second demo](assets/demo/aws_3tier_demo_27s.mp4)
+
+--- 
 
 FastAPI와 Groq LLM 기반의 **RAG-powered AI Runbook Agent**입니다.  
 AWS 3-tier 아키텍처 구축 문서를 검색 가능한 technical knowledge base로 변환하고, 질문에 맞는 근거 chunk를 검색한 뒤 장애 진단 절차와 검증 기준을 생성합니다.
@@ -20,15 +11,6 @@ AWS 3-tier 아키텍처 구축 문서를 검색 가능한 technical knowledge ba
 This project extends a static AWS 3-tier architecture manual into a searchable runbook assistant and Groq-powered RAG agent. It retrieves evidence from the original technical documentation and generates grounded troubleshooting steps for network, security, web/API, and database configuration issues.
 
 > Scope note: this is a **RAG-powered runbook agent**, not an autonomous AWS resource-modifying agent. It does not directly click the AWS Console or change AWS resources.
-
----
-
-## Demo
-
-- Local dashboard: `http://localhost:5173/aws-3tier-architecture-docs/`
-- Backend API: `http://127.0.0.1:8000`
-- Live Demo: TBD
-- Source manual: `docs/aws_3tier_manual_ver4.1.0.docx`
 
 ---
 
