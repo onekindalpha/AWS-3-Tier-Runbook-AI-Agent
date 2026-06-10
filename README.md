@@ -1,7 +1,7 @@
 # AWS 3-Tier Runbook AI Agent
 
 **Live Demo:** https://huggingface.co/spaces/onekindalpha/aws-3tier-runbook-ai-agent
-**Demo Video:** [Watch 27-second demo](assets/demo/aws_3tier_demo_27s.mp4)
+**Demo Video:** [Watch 27-second demo]([assets](https://github.com/onekindalpha/AWS-3-Tier-Runbook-AI-Agent/issues/1#issuecomment-4670636808)/demo/aws_3tier_demo_27s.mp4)
 
 --- 
 
