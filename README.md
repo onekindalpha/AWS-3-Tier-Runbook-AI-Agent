@@ -1,1 +1,1 @@
-AWS 3-tier 아키텍처(VPC, Subnet, Route Table, NACL, Security Group, Flask, EC2, RDS)의 구성 요소와 트래픽 흐름을 문서화한 레포입니다. 인프라 코드를 제공하기보다, 설계/접속 흐름을 빠르게 이해할 수 있도록 요약/다이어그램/체크리스트 중심으로 구성합니다.# aws-3tier-architecture-docs
+AWS 3-tier 아키텍처(VPC, Subnet, Route Table, NACL, Security Group, web/API layer (Flask/Nginx), EC2, RDS)의 구성 요소와 트래픽 흐름을 문서화한 레포입니다. 인프라 코드를 제공하기보다, 설계/접속 흐름을 빠르게 이해할 수 있도록 요약/다이어그램/체크리스트 중심으로 구성합니다.# aws-3tier-architecture-docs
