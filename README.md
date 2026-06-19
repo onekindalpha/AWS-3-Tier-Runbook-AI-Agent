@@ -1,5 +1,7 @@
 # AWS 3-Tier Runbook AI Agent
 
+**Language:** English | [한국어](./README.ko.md)
+
 FastAPI와 Groq LLM 기반의 **RAG-powered AI Runbook Agent**입니다.  
 AWS 3-tier 아키텍처 구축 문서를 검색 가능한 technical knowledge base로 변환하고, 질문에 맞는 근거 chunk를 검색한 뒤 장애 진단 절차와 검증 기준을 생성합니다.
 
